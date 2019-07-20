@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F47CA922DF0C10005A4442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F47CA822DF0C10005A4442 /* AppDelegate.swift */; };
+		18F47CAB22DF0C10005A4442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F47CAA22DF0C10005A4442 /* ViewController.swift */; };
+		18F47CAE22DF0C10005A4442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F47CAC22DF0C10005A4442 /* Main.storyboard */; };
+		18F47CB122DF0C10005A4442 /* MeatyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F47CAF22DF0C10005A4442 /* MeatyApp.xcdatamodeld */; };
+		18F47CB322DF0C11005A4442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F47CB222DF0C11005A4442 /* Assets.xcassets */; };
+		18F47CB622DF0C11005A4442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F47CB422DF0C11005A4442 /* LaunchScreen.storyboard */; };
+		18F47CBE22DF0CC8005A4442 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F47CBD22DF0CC8005A4442 /* GoogleService-Info.plist */; };
+		1D33BF27090D04D53953B0E3 /* Pods_MeatyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4788F670274D4B05DEEA6F8 /* Pods_MeatyApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18F47CA522DF0C10005A4442 /* MeatyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeatyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F47CA822DF0C10005A4442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F47CAA22DF0C10005A4442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F47CAD22DF0C10005A4442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F47CB022DF0C10005A4442 /* MeatyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeatyApp.xcdatamodel; sourceTree = "<group>"; };
+		18F47CB222DF0C11005A4442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F47CB522DF0C11005A4442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F47CB722DF0C11005A4442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F47CBD22DF0CC8005A4442 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6607530980183D843039E9EF /* Pods-MeatyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeatyApp.debug.xcconfig"; path = "Target Support Files/Pods-MeatyApp/Pods-MeatyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		873BD521525AC8CAB71E355C /* Pods-MeatyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeatyApp.release.xcconfig"; path = "Target Support Files/Pods-MeatyApp/Pods-MeatyApp.release.xcconfig"; sourceTree = "<group>"; };
+		F4788F670274D4B05DEEA6F8 /* Pods_MeatyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeatyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F47CA222DF0C10005A4442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D33BF27090D04D53953B0E3 /* Pods_MeatyApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DA819B7B4F101C472251DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6607530980183D843039E9EF /* Pods-MeatyApp.debug.xcconfig */,
+				873BD521525AC8CAB71E355C /* Pods-MeatyApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		18F47C9C22DF0C10005A4442 = {
+			isa = PBXGroup;
+			children = (
+				18F47CA722DF0C10005A4442 /* MeatyApp */,
+				18F47CA622DF0C10005A4442 /* Products */,
+				17DA819B7B4F101C472251DD /* Pods */,
+				78FD35DB9FA1CB815CA8A36E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18F47CA622DF0C10005A4442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F47CA522DF0C10005A4442 /* MeatyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F47CA722DF0C10005A4442 /* MeatyApp */ = {
+			isa = PBXGroup;
+			children = (
+				18F47CB722DF0C11005A4442 /* Info.plist */,
+				18F47CC022DF0EED005A4442 /* Modules */,
+				18F47CBF22DF0ED3005A4442 /* Supports */,
+			);
+			path = MeatyApp;
+			sourceTree = "<group>";
+		};
+		18F47CBF22DF0ED3005A4442 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				18F47CA822DF0C10005A4442 /* AppDelegate.swift */,
+				18F47CAC22DF0C10005A4442 /* Main.storyboard */,
+				18F47CB222DF0C11005A4442 /* Assets.xcassets */,
+				18F47CB422DF0C11005A4442 /* LaunchScreen.storyboard */,
+				18F47CBD22DF0CC8005A4442 /* GoogleService-Info.plist */,
+				18F47CAF22DF0C10005A4442 /* MeatyApp.xcdatamodeld */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		18F47CC022DF0EED005A4442 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				18F47CC122DF0EF5005A4442 /* SignIn */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		18F47CC122DF0EF5005A4442 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				18F47CC422DF0F05005A4442 /* Model */,
+				18F47CC322DF0F00005A4442 /* Controller */,
+				18F47CC222DF0EFB005A4442 /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		18F47CC222DF0EFB005A4442 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18F47CC322DF0F00005A4442 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18F47CAA22DF0C10005A4442 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18F47CC422DF0F05005A4442 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78FD35DB9FA1CB815CA8A36E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4788F670274D4B05DEEA6F8 /* Pods_MeatyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F47CA422DF0C10005A4442 /* MeatyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F47CBA22DF0C11005A4442 /* Build configuration list for PBXNativeTarget "MeatyApp" */;
+			buildPhases = (
+				E3B99C81114B4F5E1A7BF13A /* [CP] Check Pods Manifest.lock */,
+				18F47CA122DF0C10005A4442 /* Sources */,
+				18F47CA222DF0C10005A4442 /* Frameworks */,
+				18F47CA322DF0C10005A4442 /* Resources */,
+				0B7E194323EECCCE8AB500CB /* [CP] Embed Pods Frameworks */,
+				3035A5D537E6E0660629214F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeatyApp;
+			productName = MeatyApp;
+			productReference = 18F47CA522DF0C10005A4442 /* MeatyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F47C9D22DF0C10005A4442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18F47CA422DF0C10005A4442 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18F47CA022DF0C10005A4442 /* Build configuration list for PBXProject "MeatyApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F47C9C22DF0C10005A4442;
+			productRefGroup = 18F47CA622DF0C10005A4442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F47CA422DF0C10005A4442 /* MeatyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F47CA322DF0C10005A4442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F47CB622DF0C11005A4442 /* LaunchScreen.storyboard in Resources */,
+				18F47CB322DF0C11005A4442 /* Assets.xcassets in Resources */,
+				18F47CAE22DF0C10005A4442 /* Main.storyboard in Resources */,
+				18F47CBE22DF0CC8005A4442 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B7E194323EECCCE8AB500CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeatyApp/Pods-MeatyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeatyApp/Pods-MeatyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeatyApp/Pods-MeatyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3035A5D537E6E0660629214F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeatyApp/Pods-MeatyApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeatyApp/Pods-MeatyApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeatyApp/Pods-MeatyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B99C81114B4F5E1A7BF13A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeatyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F47CA122DF0C10005A4442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F47CB122DF0C10005A4442 /* MeatyApp.xcdatamodeld in Sources */,
+				18F47CAB22DF0C10005A4442 /* ViewController.swift in Sources */,
+				18F47CA922DF0C10005A4442 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18F47CAC22DF0C10005A4442 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F47CAD22DF0C10005A4442 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F47CB422DF0C11005A4442 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F47CB522DF0C11005A4442 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F47CB822DF0C11005A4442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F47CB922DF0C11005A4442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F47CBB22DF0C11005A4442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6607530980183D843039E9EF /* Pods-MeatyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MeatyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.MeatyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F47CBC22DF0C11005A4442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873BD521525AC8CAB71E355C /* Pods-MeatyApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MeatyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.MeatyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F47CA022DF0C10005A4442 /* Build configuration list for PBXProject "MeatyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F47CB822DF0C11005A4442 /* Debug */,
+				18F47CB922DF0C11005A4442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F47CBA22DF0C11005A4442 /* Build configuration list for PBXNativeTarget "MeatyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F47CBB22DF0C11005A4442 /* Debug */,
+				18F47CBC22DF0C11005A4442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18F47CAF22DF0C10005A4442 /* MeatyApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18F47CB022DF0C10005A4442 /* MeatyApp.xcdatamodel */,
+			);
+			currentVersion = 18F47CB022DF0C10005A4442 /* MeatyApp.xcdatamodel */;
+			path = MeatyApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18F47C9D22DF0C10005A4442 /* Project object */;
+}
