@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1865B1A422E4035800C519EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1865B1A322E4035800C519EC /* Images.xcassets */; };
 		18F47CA922DF0C10005A4442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F47CA822DF0C10005A4442 /* AppDelegate.swift */; };
 		18F47CAB22DF0C10005A4442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F47CAA22DF0C10005A4442 /* ViewController.swift */; };
 		18F47CAE22DF0C10005A4442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F47CAC22DF0C10005A4442 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1865B1A322E4035800C519EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18F47CA522DF0C10005A4442 /* MeatyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeatyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F47CA822DF0C10005A4442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F47CAA22DF0C10005A4442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				18F47CB722DF0C11005A4442 /* Info.plist */,
 				18F47CC022DF0EED005A4442 /* Modules */,
 				18F47CBF22DF0ED3005A4442 /* Supports */,
+				1865B1A322E4035800C519EC /* Images.xcassets */,
 			);
 			path = MeatyApp;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F47CB622DF0C11005A4442 /* LaunchScreen.storyboard in Resources */,
+				1865B1A422E4035800C519EC /* Images.xcassets in Resources */,
 				18F47CB322DF0C11005A4442 /* Assets.xcassets in Resources */,
 				18F47CAE22DF0C10005A4442 /* Main.storyboard in Resources */,
 				18F47CBE22DF0CC8005A4442 /* GoogleService-Info.plist in Resources */,
@@ -425,6 +429,7 @@
 			baseConfigurationReference = 6607530980183D843039E9EF /* Pods-MeatyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MeatyApp/Info.plist;
@@ -444,6 +449,7 @@
 			baseConfigurationReference = 873BD521525AC8CAB71E355C /* Pods-MeatyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MeatyApp/Info.plist;
