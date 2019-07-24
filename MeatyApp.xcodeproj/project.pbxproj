@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1865B1A422E4035800C519EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1865B1A322E4035800C519EC /* Images.xcassets */; };
+		189CEA3622E40E50006860CC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CEA3522E40E50006860CC /* SignUpViewController.swift */; };
+		189CEA3822E41A2E006860CC /* UpdateAccountFireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CEA3722E41A2E006860CC /* UpdateAccountFireBase.swift */; };
+		189CEA3A22E4293D006860CC /* SigninController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CEA3922E4293D006860CC /* SigninController.swift */; };
+		189CEA4522E43BBB006860CC /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CEA4422E43BBB006860CC /* TabbarViewController.swift */; };
+		189CEA4822E58CC4006860CC /* databaseOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CEA4722E58CC4006860CC /* databaseOpen.swift */; };
+		189CEA4C22E5A20E006860CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CEA4B22E5A20E006860CC /* HomeViewController.swift */; };
+		189CEA5022E5B178006860CC /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CEA4F22E5B178006860CC /* HomeCollectionViewCell.swift */; };
 		18F47CA922DF0C10005A4442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F47CA822DF0C10005A4442 /* AppDelegate.swift */; };
 		18F47CAB22DF0C10005A4442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F47CAA22DF0C10005A4442 /* ViewController.swift */; };
 		18F47CAE22DF0C10005A4442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F47CAC22DF0C10005A4442 /* Main.storyboard */; };
@@ -20,6 +27,13 @@
 
 /* Begin PBXFileReference section */
 		1865B1A322E4035800C519EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		189CEA3522E40E50006860CC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		189CEA3722E41A2E006860CC /* UpdateAccountFireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAccountFireBase.swift; sourceTree = "<group>"; };
+		189CEA3922E4293D006860CC /* SigninController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninController.swift; sourceTree = "<group>"; };
+		189CEA4422E43BBB006860CC /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		189CEA4722E58CC4006860CC /* databaseOpen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = databaseOpen.swift; sourceTree = "<group>"; };
+		189CEA4B22E5A20E006860CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		189CEA4F22E5B178006860CC /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		18F47CA522DF0C10005A4442 /* MeatyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeatyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F47CA822DF0C10005A4442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F47CAA22DF0C10005A4442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +69,104 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		189CEA3122E40DA2006860CC /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				189CEA3422E40E26006860CC /* View */,
+				189CEA3322E40E20006860CC /* Controller */,
+				189CEA3222E40E19006860CC /* Model */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		189CEA3222E40E19006860CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		189CEA3322E40E20006860CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189CEA3522E40E50006860CC /* SignUpViewController.swift */,
+				189CEA3722E41A2E006860CC /* UpdateAccountFireBase.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		189CEA3422E40E26006860CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		189CEA3B22E42B3B006860CC /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		189CEA3C22E436A8006860CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				189CEA3F22E436C3006860CC /* Controller */,
+				189CEA3E22E436BA006860CC /* Model */,
+				189CEA3D22E436B3006860CC /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		189CEA3D22E436B3006860CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				189CEA4F22E5B178006860CC /* HomeCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		189CEA3E22E436BA006860CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		189CEA3F22E436C3006860CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189CEA4B22E5A20E006860CC /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		189CEA4222E43B91006860CC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				189CEA3C22E436A8006860CC /* Home */,
+				189CEA4922E5A1D0006860CC /* uitabbar */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		189CEA4622E58C4A006860CC /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				189CEA4722E58CC4006860CC /* databaseOpen.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		189CEA4922E5A1D0006860CC /* uitabbar */ = {
+			isa = PBXGroup;
+			children = (
+				189CEA4422E43BBB006860CC /* TabbarViewController.swift */,
+			);
+			path = uitabbar;
+			sourceTree = "<group>";
+		};
 		18F47C9C22DF0C10005A4442 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +188,8 @@
 		18F47CA722DF0C10005A4442 /* MeatyApp */ = {
 			isa = PBXGroup;
 			children = (
+				189CEA4622E58C4A006860CC /* Database */,
+				189CEA3B22E42B3B006860CC /* Bases */,
 				18F47CB722DF0C11005A4442 /* Info.plist */,
 				18F47CC022DF0EED005A4442 /* Modules */,
 				18F47CBF22DF0ED3005A4442 /* Supports */,
@@ -100,6 +214,8 @@
 		18F47CC022DF0EED005A4442 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				189CEA4222E43B91006860CC /* TabBar */,
+				189CEA3122E40DA2006860CC /* SignUp */,
 				18F47CC122DF0EF5005A4442 /* SignIn */,
 			);
 			path = Modules;
@@ -126,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				18F47CAA22DF0C10005A4442 /* ViewController.swift */,
+				189CEA3922E4293D006860CC /* SigninController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,7 +398,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F47CB122DF0C10005A4442 /* MeatyApp.xcdatamodeld in Sources */,
+				189CEA3A22E4293D006860CC /* SigninController.swift in Sources */,
+				189CEA4522E43BBB006860CC /* TabbarViewController.swift in Sources */,
+				189CEA3822E41A2E006860CC /* UpdateAccountFireBase.swift in Sources */,
+				189CEA4822E58CC4006860CC /* databaseOpen.swift in Sources */,
+				189CEA5022E5B178006860CC /* HomeCollectionViewCell.swift in Sources */,
+				189CEA4C22E5A20E006860CC /* HomeViewController.swift in Sources */,
 				18F47CAB22DF0C10005A4442 /* ViewController.swift in Sources */,
+				189CEA3622E40E50006860CC /* SignUpViewController.swift in Sources */,
 				18F47CA922DF0C10005A4442 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
